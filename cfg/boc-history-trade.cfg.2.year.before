@@ -1,0 +1,42 @@
+# fund history trade records in boc
+[trade-records]
+../../fund-data/trade-data/boc/1.txt
+../../fund-data/trade-data/boc/2.txt
+../../fund-data/trade-data/boc/3.txt
+../../fund-data/trade-data/boc/4.txt
+../../fund-data/trade-data/boc/5.txt
+
+[current-hold]
+
+[history-value]
+#华夏成长
+000001_20140221=1.1400
+000001_20140715=1.0820
+000001_20140828=1.1200
+#华夏恒生ETF
+000071_20130813=1.0130
+000071_20130820=0.9890
+000071_20130909=1.0230
+000071_20130923=1.0460
+000071_20131023=1.0270
+000071_20131106=1.0310
+#嘉实成长收益
+070001_20131213=0.6447
+070001_20140127=0.6542
+#华宝油气
+162411_20140820=1.2240
+#华宝收益增长
+240008_20131023=4.1902
+240008_20131106=4.0243
+#兴全磐稳增利
+340009_20140924=1.1490
+
+[fund-trans]
+# full trans from .. to .., not support partial trans currently.
+000015 -> 000071
+
+[trade-type]
+in=认购申请,申购申请
+out=赎回申请,定期定额赎回申请
+useless=基金转换申请(同机构),修改分红方式申请
+
